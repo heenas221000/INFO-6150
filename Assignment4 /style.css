@@ -1,0 +1,52 @@
+ /* Copyright - Heena Shah 
+ Date - 10/06/2023
+ INFO 6150 Web Development Methods and Tools - Assignment 4  */
+
+
+body{
+    font-family: "Noto Sans, sans-serif";
+}
+label {	
+    float: left;
+    width: 150px;}
+#container{
+    width: 700px;
+    margin: auto;
+    background-color: rgb(229, 199, 246);
+} 
+main{
+    padding: 50px;
+}
+.table{
+    border-color: grey;
+    align-items: center;
+}
+table {
+    width: fit-content;
+    margin: auto;
+    text-align: left;				
+}
+table, th, td {  
+    border: none;
+}
+th{
+    background-color:rgb(229, 199, 246);
+    color: rgb(1, 7, 14);
+    text-align: center;
+}
+tr{
+    color: rgb(83, 81, 81);
+    background-color: seashell;   
+}
+p{
+    text-align: center;
+    font-size: large;
+}
+@media screen and (max-width: 600px) {
+    table {width:100%;}
+    div {width:100%;}
+    form {width:100%;}
+ }
+ @media screen and (max-width: 360px) {
+    table {width:100%;}
+}
