@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Heena Shah</title>
+    <link rel = "stylesheet" href="style.css">
+   <script src="https://kit.fontawesome.com/555034945d.js" crossorigin="anonymous"></script> 
+    <link rel="icon" type="image/favicon" href="images/favicon.jpeg">
+</head>
+<body>
+    <div id = "header">
+        <div class="container">
+            <nav>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#certificates">Certificates</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact ">Contact</a></li>
+                    <i class="fa-solid fa-circle-xmark" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+
+            <div class = "header-text";>
+                <p>Data Analyst</p>
+                <h1>Hello, <br>I'm <span>Heena</span> :) </h1>
+            </div>
+        </div>
+    </div>
+
+<!-- ------------ABOUT -------------------------- -->
+
+<div id="about">
+    <div class = "container">
+        <div class = "row">
+            <div class="about-col-1">
+                <img src="images/profile.png">
+            </div>
+            <div class="about-col-2">
+                <h1 class = "sub-title">About Me</h1>
+                <p>Hi I'm Heena Shah, and I'm a dedicated lifelong learner with a profound belief in the transformative power of innovation. My approach to problem-solving is characterized by a unique ability to see connections and offer solutions from unconventional angles. <br>
+                    I thrive in high-pressure environments, where my ability to analyze complex data and make strategic decisions shines. Outside the boardroom, you'll find me exploring new cuisines and hiking in remote mountain ranges.
+                </p>
+                
+                <div class="tab-titles">
+                    <p class = "tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class = "tab-links" onclick="opentab('experience')">Experience</p>
+                    <p class = "tab-links" onclick="opentab('education')">Education</p>
+                </div>
+                
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Databases</span><br>PostgreSQL, MS SQL, MySQL</li>
+                        <li><span>Tools</span><br>Tableau, Power BI, Alteryx, Talend Data Studio, Git, Qlik Sense, Microsoft Office</li>
+                         <li><span>Cloud Services</span><br>Azure - Databricks, Data Studio, Google Cloud - BigQuery, Cloud Storage, Google Analytics</li>
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="experience">
+                    <ul>
+                        <li><span>Jul 2021 – Jul 2022</span><br>Data Analyst, JSK Innovative Technology, Mumbai, India</li>
+                        
+                    </ul>
+                </div>
+
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>Sep 2022 - Expected graduation(May 2024)</span><br>Northeastern University, Boston, MA<br>Master of Science in Information Systems</li>
+                        <li><span>Aug 2019 - Jun 2022</span><br>University of Mumbai, India<br>Bachelor's of Engineering in Electronics Engineering</li>
+                        <li><span>Aug 2016 - Jun 2019</span><br>University of Mumbai, India<br>Diploma in Digital Electronics</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+  <!-- --------------Certifications-------------------- -->
+
+    <div id="certificates">
+        <div class= "container" id="certification-container">
+            <h1 class="sub-title">Certificates</h1>
+            <div class="certificates-container">
+                <img src="images/IBMCertificate.png" />
+                <img src="images/HTML5Certificate.png" />
+                <img src="images/QlikSenseCertificate.png" />
+            </div>
+        </div>
+    </div>
+
+    <!-- -----------PORTFOLIO------------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title" id="portfolio-text">Work Portfolio</h1>
+            <div class="work-list">
+
+                <div class="work">
+                    <img src="images/Project1.png">
+                    <div class="layer">
+                        <h2>Handwriting to Text Converter Application</h2>
+                        <p>Designed a GUI based OCR project with Java to detect handwritten characters to text. Developed using AWS, Pthyon, in this website, the user could view as well as upload images. 
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/Project2.png">
+                    <div class="layer">
+                        <h2>IOWA Liquor Sales - PowerBI</h2>
+                        <p>Developed PowerBI dashboard, to manage the liquor sales dataset of IOWA. Utilized tools like PowerBI for visualization, Alteryx and Talend for ETL and Google Cloud Platform for querying.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+                <div class="work">
+                    <img src="images/Project3.png">
+                    <div class="layer">
+                        <h2>NYC Motor Vehicle Collisions - Tableau</h2>
+                        <p>Developed a ETL pipeline for NYC Motor Vehicle dataset. Right from data cleansing up till visualization using Tableau, Alteryx , Navicat Data Modeler and SSMS.
+                        </p>
+                        <a href="#"><i class="fa-solid fa-up-right-from-square"></i></a>
+                    </div>
+                </div>
+
+            </div>
+            <a href="#" class="btn" id="portfolio-button">See more..</a>
+        </div>
+    </div>
+
+    <!-- ---------Contact----------------- -->
+
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title" id="contact-text">Contact Me</h1>
+                    <p><a href="mailto:shah.heen@northeastern.edu"><i class="fa-regular fa-envelope"></i>Send Email</a></p>
+                    <p><a href="tel:+1 339-999-7791"><i class="fa-solid fa-phone"></i>Call</a></p>
+    
+                    <div class="social-icons">
+                        <a href="https://www.facebook.com/"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.twitter.com/"><i class="fab fa-twitter-square"></i></a>
+                        <a href="https://www.instagram.com/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/"><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="images/Resume_HeenaShah.pdf" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form>
+                        <input type="text" name="Name" placeholder="Enter your name." required>
+                        <input type="email" name="email" placeholder="Enter your email address." required>
+                        <textarea name="Message" rows="3" placeholder="Type your message here."></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+        <div class="copyright">
+            <p>Copyright &copy; Made with <i class="fa-solid fa-heart"></i> by Heena.</p>
+        </div>
+    </div>
+
+    <script>
+        var tablinks = document.getElementsByClassName("tab-links");
+        var tabcontents = document.getElementsByClassName("tab-contents");
+
+        function opentab(tabname){
+            for(tablink of tablinks){
+                tablink.classList.remove("active-link")
+            }
+            for(tabcontent of tabcontents){
+                tabcontent.classList.remove("active-tab")
+            }
+        event.currentTarget.classList.add("active-link");
+        document.getElementById(tabname).classList.add("active-tab");
+        }
+    </script>
+
+    <script>
+        var sidemenu = document.getElementById("sidemenu");
+
+        function openmenu(){
+            sidemenu.style.right = "0";
+        }
+
+        function closemenu(){
+            sidemenu.style.right = "-200px";
+        }
+
+    </script>
+</body>
+</html>
