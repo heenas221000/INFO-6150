@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script src="PartA.js"></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Part A - Login</title>
+    <style>
+            .login-form {
+                width: 325px;
+                margin: 0 auto;
+                padding: 20px;
+                border: 1px solid #ccc;
+                border-radius: 5px;
+            }
+    
+            .error {
+                color: red;
+            }
+    </style>
+</head>
+<body>
+        <div class="login-form">
+            <h1>Login</h1>
+            <div>
+                  <label for="email">Email:</label>
+                <input type="text" id="email">
+                <div class="error" id="email-error"></div>
+            </div><br>
+            <div>
+                <label for="username">User Name:</label>
+                <input type="text" id="username">
+                <div class="error" id="username-error"></div>
+            </div><br>
+            <div>
+                <label for="password">Password:</label>
+                <input type="password" id="password">
+                <div class="error" id="password-error"></div>
+            </div><br>
+            <div>
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password">
+                <div class="error" id="confirm-password-error"></div>
+            </div><br>
+            <button id="login-button" disabled>Login</button>
+        </div>
+    
+        
+</body>
+</html>
+    
